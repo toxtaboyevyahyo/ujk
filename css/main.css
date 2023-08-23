@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul{
+    list-style: none;
+}
+body{
+    font-family: 'nota sans';
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.container{
+    max-width: 1220px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.wrapper{
+    background: #163A24;
+}
+#main-header{
+    padding: 20px 0;
+}
+.main-header_login{
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+text-align: right;
+color: #FBFAF7;
+background-color: transparent;
+border: none;
+cursor: pointer;
+}
+.main-header_link{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0 24px;
+    color: #FBFAF7;
+}
+.main-header_btn{
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #FBFAF7;
+padding: 15px 25px;
+background: #198c36;
+border-radius: 160px;
+}
+.main-header_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-header_content{
+    display: flex;
+    align-items: center;
+}
+/* hero */
+.hero_img{
+    width: 738px;
+
+}
+.hero_title{
+font-weight: 600;
+font-size: 48px;
+line-height: 65px;
+color: #FBFAF7;
+max-width: 391px;
+margin-bottom: 18px;
+}
+.hero_text{
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+color: #FBFAF7;
+max-width: 475px;
+}
+.hero_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* human */
+#human{
+    padding-top: 119px;
+}
+.human_block{
+    border: 2px solid red;
+}
+.human_img-block{
+    max-width: 492px;
+}
+.humant_title{
+font-weight: 600;
+font-size: 48px;
+line-height: 54px;
+color: #163A24;
+max-width: 325px;
+margin-bottom: 27px;
+}
+.human_text{
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+color: #163A24;
+max-width: 374px;
+}
+.human_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+/* clients */
+#clients{
+    padding-top: 119px;
+    padding-bottom: 120px;
+}
+.client_title{
+font-weight: 600;
+font-size: 48px;
+line-height: 54px;
+text-align: center;
+color: #163A24;
+margin-bottom: 60px;
+}
+.quality_title{
+font-weight: 600;
+font-size: 48px;
+line-height: 54px;
+text-align: center;
+color: #FBFAF7;
+}
